@@ -1,0 +1,168 @@
+{
+  "cloudfunctionRoot": "cloudfunctions/",
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "enhance": true,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": false,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.16.0",
+  "appid": "wx9193958cd258914e",
+  "projectname": "schoolPlatform",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "scripts": {},
+  "isGameTourist": false,
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/demo1/demo1",
+          "pathName": "pages/demo1/demo1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/goods_list/goods_list",
+          "pathName": "pages/goods_list/goods_list",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/goods_release/goods_release",
+          "pathName": "pages/goods_release/goods_release",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/goods_detail/goods_detail",
+          "pathName": "pages/goods_detail/goods_detail",
+          "query": "id=b00064a7605062180a47ce1a3a2c03b1",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "id=b00064a7605062180a47ce1a3a2c03b1",
+          "scene": null
+        },
+        {
+          "name": "pages/talking/talking",
+          "pathName": "pages/talking/talking",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/talking_release/talking_release",
+          "pathName": "pages/talking_release/talking_release",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/talking_detail/talking_detail",
+          "pathName": "pages/talking_detail/talking_detail",
+          "query": "id=b00064a76055b8a10af0e88442010172",
+          "scene": null
+        },
+        {
+          "name": "pages/lost/lost",
+          "pathName": "pages/lost/lost",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/lost_release/lost_release",
+          "pathName": "pages/lost_release/lost_release",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/lost_detail/lost_detail",
+          "pathName": "pages/lost_detail/lost_detail",
+          "query": "id=79550af260643b580ce4517660fb29c0",
+          "scene": null
+        },
+        {
+          "name": "pages/user/user",
+          "pathName": "pages/user/user",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/admin/admin",
+          "pathName": "pages/admin/admin",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/job/job",
+          "pathName": "pages/job/job",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/job_release/job_release",
+          "pathName": "pages/job_release/job_release",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/job_detail/job_detail",
+          "pathName": "pages/job_detail/job_detail",
+          "query": "id=17453ede60681882007b4d326e9d01dd",
+          "scene": null
+        },
+        {
+          "name": "pages/user_lost/user_lost",
+          "pathName": "pages/user_lost/user_lost",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,83 @@
+page{
+  background-color:rgb(226, 223, 223);
+ }
+ .icon-yidiandiantubiao13{
+  font-size: 120rpx;
+  color: rgb(255, 145, 0);
+}
+.job_wrap{
+  width: 120rpx;
+  height: 120rpx;
+ 
+  position: fixed;
+  right: 50rpx;
+  bottom: 50rpx;
+  z-index:1
+}
+.user_avatar{
+  height: 60rpx;
+  width: 60rpx;
+  border-radius:150rpx;
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+}
+.detail_user{
+  display: flex;
+  flex:1;
+}
+.user_wrap{
+  flex-direction: column
+}
+.user_name{
+  margin-left: 20rpx;
+   
+ }
+ .user_time{
+   margin-left: 20rpx;
+   color: grey;
+   
+ }
+ .job_detail_content{
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+   margin-top: 20rpx;
+   font-size: 36rpx;
+   margin-bottom: 20rpx;
+   margin-left: 20rpx;
+ }
+ .list_wrap{
+  border: white 1px solid;
+  margin: 20rpx;
+  padding:20rpx;
+  background-color: white;
+  border-radius:20rpx;
+ }
+ .job_img{
+  height: 150rpx;
+  width: 150rpx;
+  display: flex;
+  margin-right: 10rpx;
+  
+ }
+
+ .share_wrap{
+  display: flex
+}
+button{
+  padding: 10rpx !important;
+  margin:10rpx !important;
+  background-color: white;
+}
+.job_title{
+  font-weight: 700;
+  margin-top: 5rpx;
+  font-size: 40rpx;
+}
+.city{
+  position: relative;
+  left: 50%;
+  margin-top: 50rpx;
+  color: grey;
+}

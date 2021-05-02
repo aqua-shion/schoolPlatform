@@ -1,0 +1,34 @@
+<view class="job_wrap">
+
+<view>
+<input bindinput="getName" placeholder="请输入职位名称"></input>
+</view>
+
+
+
+<view>
+<textarea  maxlength = '-1' bindinput="getDetail" placeholder="请输入职位详情"> </textarea>
+</view>
+
+<view>
+<input bindinput="getContactName"  placeholder="请输入联系人"></input>
+</view>
+
+<view>
+<input bindinput="getNum"  placeholder="请输入联系方式"></input>
+</view>
+
+<view>
+<input bindinput="getMoney"  placeholder="请输入薪资"></input>
+</view>
+
+<input bindinput="getAddress" placeholder="请点击获取位置获取定位" value="{{location.address}}{{location.name}}"></input>
+<button wx:if="{{!location.longitude}}" bindtap="getLocation">获取位置</button>
+<map wx:if="{{location.longitude}}" scale='16' longitude='{{location.longitude}}' latitude="{{location.latitude}}"  ></map>
+
+
+<view>
+<button bindtap="addjob"  type="primary">发布</button>
+</view>
+
+</view>

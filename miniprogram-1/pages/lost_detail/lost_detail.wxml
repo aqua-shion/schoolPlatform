@@ -1,0 +1,24 @@
+<view class="lost_img">
+  <image bindtap="previewImg"  data-item='{{lost.img}}' mode="aspectFit" src="{{lost.img}}"></image>
+</view>
+
+<view class="lost_title">{{lost.name}}</view>
+
+<view class="lost_contact">
+  联系人：{{lost.contactName}}
+</view>
+<view class="lost_num">
+  联系方式：{{lost.num}}
+</view>
+<view class="lost_time">
+  发布时间：{{lost.time}}
+</view>
+
+<view class="divLine"></view>
+
+<view class="lost_detail_above">物品详情:</view>
+<view style="white-space:pre-line" class="lost_detail">{{lost.detail}}</view>
+<button wx:if="{{lost.status==0}}" type="primary" bindtap="finish">我要认领</button>
+<button wx:if="{{superRoot}}" type="warn" bindtap="delete">管理员删除({{lost.status}})</button>
+<!-- 如果失物的opid=用户的opid，则渲染 -->
+<button wx:if="{{lost_openid==user_openid}}" type="warn" bindtap="delete">用户删除({{lost.status}})</button>

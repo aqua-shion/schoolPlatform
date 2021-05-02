@@ -1,0 +1,24 @@
+input{
+  border: 1px solid rgb(143, 143, 143);
+ margin-bottom: 20rpx;
+ margin-top: 20rpx;
+ padding: 10rpx;
+}
+
+textarea{
+  border: 1px solid rgb(143, 143, 143);
+  padding: 10rpx;
+  margin-top: 20rpx;
+}
+
+.job_wrap{
+  padding: 30rpx;
+
+}
+button{
+ margin-top: 100rpx;
+}
+map{
+  width: 700rpx;
+  height: 500rpx;
+}

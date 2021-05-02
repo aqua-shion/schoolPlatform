@@ -1,0 +1,19 @@
+<text>输入商品名称：</text>
+<input bindinput="getName"></input>
+<text>输入商品价格：</text>
+<input bindinput="getPrice"></input>
+<button bindtap="addGood" type="primary">添加商品</button>
+
+
+
+<button bindtap="shengxu" type="primary">按价格升序商品</button>
+<button bindtap="jiangxu" type="primary">按价格降序商品</button>
+<button bindtap="getData" type="primary">调用云函数数据库</button>
+<button bindtap="eventData" type="primary">调用云函数event</button>
+<button bindtap="chooseImage" type="primary">选择图片</button>
+<button bindtap="uploadFile" type="primary">选择图片并上传至云端</button>
+<view class="item" wx:for="{{list}}">
+  <view bindtap="goDetail" data-id="{{item._id}}">
+    <image class="img" src="{{item.img}}"></image>
+    商品名：{{item.name}},价格：{{item.price}}</view>
+  </view>

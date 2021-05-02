@@ -1,0 +1,33 @@
+<view class="list_wrap" wx:for="{{talking_list}}">
+  <view class="detail_user">
+    <view>
+      <image class="user_avatar" src="{{item.avatarUrl}}"></image>
+    </view>
+    <view class="user_wrap">
+      <view class="user_name">{{item.nickName}}</view>
+      <view class="user_time">{{item.time}}</view>
+    </view>
+
+  </view>
+  <view class="talking_title">{{item.title}}</view>
+  <view bindtap="goDetail" data-id="{{item._id}}" class="talking_detail_content">{{item.content}}</view>
+  <!-- 数组里面的数组 -->
+  <view class="img_wrap" wx:for="{{item.imgUrl}}">
+    <image bindtap="previewImg"  data-item='{{item}}' mode="aspectFit" class="talking_img"
+      src="{{item}}"></image>
+  </view>
+  <!-- 分享、点赞、踩 -->
+  <view class="share_wrap">
+    <button class="iconfont icon-share" open-type="share">分享</button>
+    <button bindtap="like" class="iconfont icon-write">评论</button>
+    <button bindtap="dislike" class="iconfont icon-dianzan">点赞({{item.like}})</button>
+  </view>
+</view>
+
+
+
+
+
+
+
+

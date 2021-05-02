@@ -1,0 +1,31 @@
+<view class="goods_wrap">
+
+  <view>
+<input bindinput="getName" placeholder="标题/物品名称"></input>
+</view>
+
+<image wx:if="{{imgUrl}}" src="{{imgUrl}}"></image>        
+<button  class="upImg" bindtap="handleChooseImg">+</button>
+
+
+<view>
+<input bindinput="getPrice" placeholder="价格"></input>
+</view>
+
+<view>
+  <textarea  bindinput="getDetail" placeholder="请输入商品详情"> </textarea>
+</view>
+
+<view>
+  <input bindinput="getContactName"  placeholder="请输入联系人"></input>
+</view>
+
+<view>
+  <input bindinput="getNum"  placeholder="请输入联系方式"></input>
+</view>
+
+<view>
+  <button bindtap="addGoods"  type="primary">发布</button>
+</view>
+
+</view>

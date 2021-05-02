@@ -1,0 +1,35 @@
+<view class="talking_title">
+  <input  bindinput="getTitle" placeholder="请输入标题："></input>
+</view>
+<view class="talking_content">
+  <textarea bindinput="getContent" placeholder="请输入内容:" ></textarea> 
+</view>
+
+
+
+<view class='pages'>
+  <!-- 图片组件 -->
+  <view class="images_box">
+    <block wx:key="imgbox" wx:for="{{imgbox}}">
+      <view class='img-box'>
+        <image class='img' src='{{item}}' mode="aspectFill" bindtap="previewImg" data-index='{{index}}'
+          data-item='{{item}}'></image>
+        <view class='img-delect' data-index='{{index}}' bindtap='imgDelete1'>
+          <image class='img' src='../../img/deleteImg.png'></image>
+        </view>
+      </view>
+    </block>
+    <view class='img-box' bindtap='addPic1' wx:if="{{imgbox.length<9}}">
+      <image class='img' src='../../img/add.png'></image>
+    </view>
+  </view>
+  <button wx:if="{{isFocus}}" bindtap='upImg'>上传图片</button>
+</view>
+
+
+
+
+
+<view>
+  <button bindtap="submitTalking">发布动态</button>
+</view>

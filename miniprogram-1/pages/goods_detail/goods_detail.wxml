@@ -1,0 +1,61 @@
+<view  class="goods_img">
+  <image mode="aspectFit" src="{{goods.img}}"></image>
+</view>
+<view class="goods_price">
+  <view class="rmb">￥</view>
+  <view class="price">
+    {{goods.price}}
+  </view>
+  <view class="goods_title">{{goods.name}}</view>
+</view>
+<view class="goods_contact">
+  联系人：{{goods.contactName}}
+</view>
+<view class="goods_num">
+  联系方式：{{goods.num}}
+</view>
+<view class="goods_time">
+  发布时间：{{goods.time}}
+</view>
+
+<view class="divLine"></view>
+
+<view class="goods_detail_above">物品详情:</view>
+<view style="white-space:pre-line" class="goods_detail">{{goods.detail}}</view>
+<button type="primary" bindtap="finish">我要购买</button>
+<button wx:if="{{superRoot}}" type="warn" bindtap="delete">管理员删除({{goods.status}})</button>
+<!-- 如果物品的opid=用户的opid，则渲染 -->
+<button wx:if="{{goods_openid==user_openid}}" type="warn" bindtap="delete">用户删除({{goods.status}})</button>
+
+<view class="divLine2"></view>
+
+<view style="color:grey;margin:10rpx">共有{{commentLength}}条评论</view>
+<view class="divLine"></view>
+<!-- 评论区 -->
+<!-- <view class="goods_comment" wx:for="{{commentContent}}" >
+<image class="user_image" src="{{item.avatarUrl}}"></image>
+<view class="user_name">{{item.nickName}}</view>
+<view class="user_comment">{{item.comment}}</view>
+<view class="comment_time">{{item.comment_time}}</view>
+
+</view> -->
+<view class="wrap" wx:for="{{commentContent}}">
+<view  class="detail_user" >
+<image class="user_avatar" src="{{item.avatarUrl}}"></image>
+<view class="user_wrap">
+<view class="user_name">{{item.nickName}}</view>
+<view class="user_time">{{item.comment_time}}</view>
+</view>
+</view>
+<view style="white-space:pre-line" class="user_comment">{{item.comment}}</view>
+</view>
+
+<!-- 评论输入框 -->
+<view class="comment_wrap" bindtap="showModal">
+  <text class="iconfont icon-write"></text>
+<input bindinput="submit" class="input_comment" placeholder="说两句吧~">
+</input>
+<button open-type="getUserInfo" class="input_btn" bindtap="handleSubmit" type="primary" hidden="{{!isFocus}}">发表</button>
+</view>
+<!-- <view class="goods_detail">由于大四实习，校园网还剩半年，现转让校园网还有路由器。路由器的连接方式包教会。有意者联系，微信与手机号一样！</view> -->
+

@@ -1,0 +1,46 @@
+<Tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange">
+  <block wx:if="{{tabs[0].isActive}}">
+<view class="lost_wrap">
+<!--  0代表未完成，1代表完成，0渲染，1则不渲染 -->
+<view wx:if="{{item.status==0}}" bindtap="goDetail" wx:for="{{list}}" data-id="{{item._id}}"  class="lost_item" >
+
+<view class="lost_img_wrap">
+  <image src="{{item.img}}"></image>
+</view>
+
+
+<view class="lost_info_wrap" >
+  
+  <view class="lost_name" >{{item.name}}</view>
+  <view class="lost_content">{{item.detail}}</view>
+  <view class="lost_time">{{item.time}}</view>
+</view>
+
+</view>
+</view>
+
+</block>
+<!-- 已完成 -->
+<block wx:elif="{{tabs[1].isActive}}">
+  
+  <view class="lost_wrap">
+<!--  0代表未完成，1代表完成，0渲染，1则不渲染 -->
+<view wx:if="{{item.status==1}}" bindtap="goDetail" wx:for="{{list}}" data-id="{{item._id}}"  class="lost_item" >
+
+<view class="lost_img_wrap">
+  <image src="{{item.img}}"></image>
+</view>
+
+
+<view class="lost_info_wrap" >
+  
+  <view class="lost_name" >{{item.name}}</view>
+  <view class="lost_content">{{item.detail}}</view>
+  <view class="lost_time">{{item.time}}</view>
+</view>
+
+</view>
+</view> 
+
+</block>
+</Tabs>

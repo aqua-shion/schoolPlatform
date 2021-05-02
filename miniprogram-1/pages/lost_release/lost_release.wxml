@@ -1,0 +1,26 @@
+<view class="lost_wrap">
+
+<view>
+<input bindinput="getName" placeholder="标题/物品名称"></input>
+</view>
+
+<image bindtap="previewImg"  data-item='{{imgUrl}}'  wx:if="{{imgUrl}}" src="{{imgUrl}}"></image>        
+<button  class="upImg" bindtap="handleChooseImg">+</button>
+
+<view>
+<textarea  bindinput="getDetail" placeholder="请输入失物详情"> </textarea>
+</view>
+
+<view>
+<input bindinput="getContactName"  placeholder="请输入联系人"></input>
+</view>
+
+<view>
+<input bindinput="getNum"  placeholder="请输入联系方式"></input>
+</view>
+
+<view>
+<button bindtap="addLost"  type="primary">发布</button>
+</view>
+
+</view>

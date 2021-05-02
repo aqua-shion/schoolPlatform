@@ -1,0 +1,13 @@
+/* pages/demo1/demo1.wxss */
+input{
+  border: 1px solid green;
+}
+
+.img{
+  width: 300rpx;
+  height: 400rpx;
+}
+.item{
+  padding:10rpx 10rpx;
+  border-bottom: 1px solid green;
+}

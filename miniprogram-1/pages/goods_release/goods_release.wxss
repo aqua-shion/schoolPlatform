@@ -1,0 +1,34 @@
+input{
+  border: 1px solid rgb(143, 143, 143);
+ margin-bottom: 20rpx;
+ margin-top: 20rpx;
+ padding: 10rpx;
+}
+textarea{
+  border: 1px solid rgb(143, 143, 143);
+  padding: 10rpx;
+}
+image{
+  width: 400rpx;
+  height: 400rpx;
+}
+
+.goods_wrap{
+  padding: 30rpx;
+
+}
+.upImg{
+  margin: 0 !important ;
+  padding:0 !important;
+  border: 1px solid rgb(143, 143, 143);
+  width: 100rpx;
+  height: 400rpx;
+  font-size: 200rpx;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20rpx;
+  color: #ccc;
+}

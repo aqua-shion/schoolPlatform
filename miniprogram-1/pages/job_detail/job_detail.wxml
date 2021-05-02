@@ -1,0 +1,40 @@
+<view class="job_detail_title">
+  {{detail.name}}
+</view>
+<!-- 地址-->
+<view class="address">
+  <view class="iconfont icon-position"></view>
+  {{detail.city}}
+</view>
+<!-- 薪资 -->
+<view class="money">{{detail.money}}</view>
+<view class="divLine1"></view>
+<!-- 用户信息 -->
+<view class="detail_user">
+<image class="user_avatar" src="{{detail.avatarUrl}}"></image>
+<view class="user_wrap">
+<view class="user_name">{{detail.nickName}}</view>
+<view class="user_time">{{detail.time}}</view>
+</view>
+</view>
+<view  class="aqua">职位详情：</view>
+<!-- 内容 pre-line:css3属性，保留空格和换行符 -->
+<view style="white-space:pre-line" class="job_detail_content">
+  {{detail.detail}}
+</view>
+
+<view class="divLine1"></view>
+<button wx:if="{{superRoot}}" type="warn" bindtap="delete">管理员删除</button>
+<!-- 如果工作的opid=用户的opid，则渲染 -->
+<button wx:if="{{job_openid==user_openid}}" type="warn" bindtap="delete">用户删除</button>
+<!-- 地图 -->
+<view class="div_map">
+<map wx:if="{{location.longitude}}" scale='16' longitude='{{location.longitude}}' latitude="{{location.latitude}}"   ></map>
+<view class="address">
+  <view class="iconfont icon-position"></view>
+  {{detail.address}}
+</view>
+</view>
+<view class="divLine2"></view>
+
+

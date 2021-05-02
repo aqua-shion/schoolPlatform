@@ -1,0 +1,5 @@
+<view class="view1">管理员账号:</view>
+<input bindinput="getUser" class="input1"></input>
+<view class="view1">管理员密码：</view>
+<input type="password" bindinput="getPsy" class="input1"></input>
+<button bindtap="login" type="primary">登录</button>

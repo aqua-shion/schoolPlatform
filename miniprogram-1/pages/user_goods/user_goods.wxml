@@ -1,0 +1,43 @@
+<Tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange">
+  <block wx:if="{{tabs[0].isActive}}">
+   
+    <view class="first_tab">
+<!--  0代表未完成，1代表完成，0渲染，1则不渲染 -->
+      <view wx:if="{{item.status==0}}" bindtap="goDetail"  data-id="{{item._id}}" wx:for="{{list}}" class="goods_item">
+
+        <view class="goods_img_wrap">
+          <image src="{{item.img}}"></image>
+        </view>
+
+
+        <view class="goods_info_wrap">
+          
+          <view class="goods_name">{{item.name}}</view>
+          <view class="goods_price">￥{{item.price}}</view>
+        </view>
+
+      </view>
+    </view>
+  </block>
+  <block wx:elif="{{tabs[1].isActive}}">
+    <view class="first_tab">
+<!--  0代表未完成，1代表完成，0渲染，1则不渲染 -->
+      <view wx:if="{{item.status==1}}" bindtap="goDetail"  data-id="{{item._id}}" wx:for="{{list}}" class="goods_item">
+
+        <view class="goods_img_wrap">
+          <image src="{{item.img}}"></image>
+        </view>
+
+
+        <view class="goods_info_wrap">
+          
+          <view class="goods_name">{{item.name}}</view>
+          <view class="goods_price">￥{{item.price}}</view>
+        </view>
+
+      </view>
+    </view>
+  </block>
+
+
+</Tabs>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {},
+  "enablePullDownRefresh":true,
+  "backgroundColor":"#FF6FAC",
+  "navigationBarTitleText": "我的校园"
+}

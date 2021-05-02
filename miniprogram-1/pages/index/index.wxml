@@ -1,0 +1,9 @@
+<view class="index_swiper">
+  <swiper autoplay circular="true" indicator-dots interval="2000" indicator-color="#0094ff" indicator-active-color="#ff0094">
+  <swiper-item> <image mode="widthFix" src="https://s.im5.me/2021/03/18/AWSfc.jpg"></image>  </swiper-item>
+  <swiper-item> <image mode="widthFix" src="https://s.im5.me/2021/01/23/A3geM.png"></image>  </swiper-item>
+  <swiper-item> <image mode="widthFix" src="https://s.im5.me/2021/01/23/A3iIq.png"></image>  </swiper-item>
+</swiper>
+</view>
+<view bindtap="goLost">失物招领</view>
+<view bindtap="goJob">校园招聘</view>

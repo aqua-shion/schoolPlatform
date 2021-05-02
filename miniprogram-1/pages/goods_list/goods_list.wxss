@@ -1,0 +1,60 @@
+/* pages/goods_list/index.wxss */
+.first_tab .goods_item {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.first_tab .goods_item .goods_img_wrap {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first_tab .goods_item .goods_img_wrap image {
+  width: 200rpx;
+  height: 200rpx;
+}
+.first_tab .goods_item .goods_info_wrap {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.first_tab .goods_item .goods_info_wrap .goods_name {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.first_tab .goods_item .goods_info_wrap .goods_price {
+  color: #FF6FAC;
+  font-size: 32rpx;
+}
+
+.icon-paixu1{
+  font-size: 80rpx;
+  margin-left: 200rpx;
+  margin-right: 300rpx;
+}
+.icon-paixu{
+  font-size: 80rpx;
+  
+}
+
+.user_icon{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.goods_release{
+  width: 120rpx;
+  height: 120rpx;
+ 
+  position: fixed;
+  right: 50rpx;
+  bottom: 50rpx;
+  z-index:1
+}
+.icon-yidiandiantubiao13{
+  font-size: 120rpx;
+  color: rgb(255, 145, 0);
+}

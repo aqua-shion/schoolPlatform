@@ -1,0 +1,51 @@
+<view class="talking_detail_title">
+  {{detail.title}}
+</view>
+
+<view class="detail_user">
+<image class="user_avatar" src="{{detail.avatarUrl}}"></image>
+<view class="user_wrap">
+<view class="user_name">{{detail.nickName}}</view>
+<view class="user_time">{{detail.time}}</view>
+</view>
+</view>
+
+<view style="white-space:pre-line" class="talking_detail_content">
+  {{detail.content}}
+</view>
+<view class="content_img" wx:for="{{detail.imgUrl}}">
+  <image mode="aspectFit" src="{{item}}"></image>
+</view>
+<view class="divLine1"></view>
+<button wx:if="{{superRoot}}" type="warn" bindtap="delete">管理员删除</button>
+<!-- 如果动态的opid=用户的opid，则渲染 -->
+<button wx:if="{{talking_openid==user_openid}}" type="warn" bindtap="delete">用户删除</button>
+<!-- 分享、点赞、踩 -->
+<view class="share_wrap">
+  <button class="iconfont icon-share" open-type="share">分享</button>
+  <button bindtap="like" class="iconfont {{isLike?'icon-dianzan' : 'icon-dianzan2'}}">赞({{like}})</button>
+  <button bindtap="dislike" class="iconfont {{isDislike?'icon-cai' : 'icon-cai2'}}">踩({{dislike}})</button>
+
+</view>
+
+<view class="divLine2"></view>
+<view class="divLine3">全部回复({{commentLength}})</view>
+
+<!-- 评论区 -->
+<view class="divLine1" ></view>
+  <view class="wrap" wx:for="{{talking_comment}}">
+<view  class="detail_user" >
+<image class="user_avatar" src="{{item.avatarUrl}}"></image>
+<view class="user_wrap">
+<view class="user_name">{{item.nickName}}</view>
+<view class="user_time">{{item.comment_time}}</view>
+</view>
+</view>
+<view style="white-space:pre-line" class="user_comment">{{item.comment}}</view>
+</view>
+<view class="comment_wrap" >
+  <text class="iconfont icon-write"></text>
+<input bindinput="submit" class="input_comment " placeholder="说两句吧~">
+</input>
+<button open-type="getUserInfo" class="input_btn" bindtap="handleSubmit" type="primary" hidden="{{!isFocus}}">发表</button>
+</view>

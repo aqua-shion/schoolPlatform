@@ -1,0 +1,38 @@
+<!-- user_info_wrap -->
+<view class="user_info_wrap">
+  <view wx:if="{{userInfo.avatarUrl}}" class="user_img_wrap">
+    <image  class="user_bg" src="{{userInfo.avatarUrl}}"></image>
+    <view class="user_info">
+      <image class="user_icon"src="{{userInfo.avatarUrl}}"></image>
+      <view class="user_name">{{userInfo.nickName}}</view>
+    </view>
+  </view>
+  <view wx:else class="user_btn">
+    <navigator url="/pages/login/login" >登录</navigator>
+  </view>
+</view>
+<!-- 我发布的 -->
+<view bindtap="goLost" class="my_wrap">
+  <view class="lost">0
+  <view style="color:grey">失物招领</view>
+</view>
+  <view bindtap="goGoods" class="goods">0
+  <view style="color:grey">二手商品</view>
+</view>
+  <view bindtap="goTalking" class="talking">0
+  <view style="color:grey">发布的动态</view>
+</view>
+<view bindtap="goJob" class="work">0
+  <view style="color:grey">发布的招聘</view>
+</view>
+</view>
+<!-- 管理员登录、客服、意见反馈 -->
+<view bindtap="admin" class="admin">管理员登录</view>
+<view class="other">
+<button open-type="contact" class="other_1">联系客服</button>
+<!--微信公众平台后台用户反馈查看 -->
+<button open-type="feedback" class="other_2">意见反馈</button>
+<button open-type="openSetting" class="other_3">设置</button>
+<button open-type="share" class="other_4">把应用推荐给其他人</button>
+</view>
+

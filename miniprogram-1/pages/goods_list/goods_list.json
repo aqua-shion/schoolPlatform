@@ -1,0 +1,8 @@
+{
+  "usingComponents": {"Tabs":"../../components/Tabs/Tabs","SearchInput":"../../components/SearchInput/SearchInput"},
+ 
+ "navigationBarTitleText": "二手交易",
+"enablePullDownRefresh":true,
+"backgroundColor":"#FF6FAC"
+  
+}

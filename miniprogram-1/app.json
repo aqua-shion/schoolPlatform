@@ -1,0 +1,77 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/goods_list/goods_list",
+    "pages/talking/talking",
+    "pages/user/user",
+    "pages/user_lost/user_lost",
+    "pages/user_goods/user_goods",
+    "pages/user_talking/user_talking",
+    "pages/user_job/user_job",
+    "pages/talking_release/talking_release",
+    "pages/talking_detail/talking_detail",
+    "pages/lost/lost",
+    "pages/lost_release/lost_release",
+    "pages/lost_detail/lost_detail",
+    "pages/admin/admin",
+    "pages/demo1/demo1",
+    "pages/goods_detail/goods_detail",
+    "pages/job/job",
+    "pages/job_detail/job_detail",
+    "pages/job_release/job_release",
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/goods_release/goods_release",
+    "pages/search/search"
+   
+  ],
+  "tabBar": {
+    "selectedColor": "#d4237a",
+     "list": [{
+       "pagePath": "pages/index/index",
+       "text": "首页",
+       "iconPath": "icons/un_home.png",
+       "selectedIconPath": "icons/home.png"
+     },
+     {
+      "pagePath": "pages/talking/talking",
+      "text": "校园",
+      "iconPath": "icons/un_category.png",
+      "selectedIconPath":"icons/category.png" 
+    },
+     {
+       "pagePath": "pages/goods_list/goods_list",
+       "text": "生活",
+       "iconPath": "icons/un_cart.png",
+       "selectedIconPath": "icons/cart.png"
+     },
+     
+     {
+       "pagePath": "pages/user/user",
+       "text": "我的",
+       "iconPath": "icons/un_mine.png",
+       "selectedIconPath": "icons/mine.png"
+     }
+   ]
+   },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FF6FAC",
+    "navigationBarTitleText": "schoolPlatform",
+    "navigationBarTextStyle":"white"
+  },
+ "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "plugins": {
+    "chooseLocation": {
+    "version": "1.0.5",
+    "provider": "wx76a9a06e5b4e693e"
+    }
+},
+"permission": {
+  "scope.userLocation": {
+  "desc": "你的位置信息将用于小程序定位"
+  }
+}
+  
+}

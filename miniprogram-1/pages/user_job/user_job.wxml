@@ -1,0 +1,32 @@
+<view class="list_wrap" wx:for="{{job_list}}">
+  
+  <view class="job_title">{{item.name}}</view>
+  <view bindtap="goDetail" data-id="{{item._id}}" class="job_detail_content">{{item.detail}}</view>
+  <!-- 数组里面的数组 -->
+  <view class="img_wrap" wx:for="{{item.imgUrl}}">
+    <image bindtap="previewImg"  data-item='{{item}}' mode="aspectFit" class="job_img"
+      src="{{item}}"></image>
+  </view>
+  <!-- 用户信息 -->
+  <view class="detail_user">
+    <view>
+      <image class="user_avatar" src="{{item.avatarUrl}}"></image>
+    </view>
+    <view class="user_wrap">
+      <view class="user_name">{{item.contactName}}</view>
+      <view class="user_time">{{item.time}}</view>
+    </view>
+    <!-- 地址 -->
+    <view class="city">{{item.city}}</view>
+  </view>
+  
+  
+</view>
+
+
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+/* miniprogram/pages/fb/fb.wxss */
+
+ .pages{
+  width: 98%;
+  margin: auto;
+  overflow: hidden;
+ }
+input{
+  padding: 10rpx;
+  
+ }
+ textarea{
+   padding:10rpx;
+ }
+
+ .talking_title{
+border-bottom:1px grey solid;
+margin-bottom: 20rpx;
+ }
+ .talking_content{
+ 
+  margin-bottom: 20rpx;
+  height: 300rpx;
+ }
+ /* 图片 */
+ .images_box{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: white;
+  border-bottom:1px grey solid;
+ }
+ .img-box{
+  
+  width: 200rpx;
+  height: 200rpx;
+  margin-left: 10rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  position: relative;
+ }
+ /* 删除图片 */
+ .img-delect{
+  width:50rpx;
+  height:50rpx;
+  border-radius:50%;
+  position:absolute;
+  right:-20rpx;
+  top:-20rpx;
+ }
+ .img{
+  width: 100%;
+  height: 100%;
+ }
+ .jiage{
+  height: 60rpx;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+ }
+ .rmb{
+  width: 280rpx;
+  border: 2rpx solid rgb(199, 197, 197);
+ }
+ button{
+  margin-top: 20rpx;
+  background-color: green;
+ }
+ .radio-group{
+  display: flex;
+ }

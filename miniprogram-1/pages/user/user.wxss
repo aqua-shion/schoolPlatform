@@ -1,0 +1,173 @@
+page {
+  background-color: #edece8;
+}
+.user_info_wrap {
+  height: 45vh;
+  overflow: hidden;
+  background-color: #FF6FAC;
+  position: relative;
+}
+.user_img_wrap {
+  position: relative;
+}
+ .user_bg {
+  height: 50vh;
+  filter: blur(10rpx);
+  width: 100%;
+}
+.user_info {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  text-align: center;
+}
+.user_name {
+  color: #fff;
+  margin-top: 40rpx;
+}
+.user_icon {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+  border: 1rpx solid greenyellow;
+  color: greenyellow;
+  font-size: 38rpx;
+  padding: 30rpx;
+  border-radius: 10rpx;
+}
+/* 我的动态 我的二手交易。。。 */
+.my_wrap{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+ margin-top: 10rpx;
+}
+.lost{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #FF6FAC;
+  padding: 5rpx;
+  border-right:1px solid grey;
+  flex: 1;
+}
+.goods{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #FF6FAC;
+  padding: 5rpx;
+  border-right:1px solid grey;
+  flex: 1;
+}
+.talking{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #FF6FAC;
+  padding: 5rpx;
+  border-right:1px solid grey;
+  flex: 1;
+}
+.work{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #FF6FAC;
+  padding: 5rpx;
+  flex: 1;
+  
+}
+.admin{
+  background-color: white;
+  padding: 20rpx;
+  margin: 20rpx;
+  color: grey;
+  
+}
+.other{
+   background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+ 
+}
+.other_1{
+  BORDER-RIGHT: 0px solid !important;
+BORDER-TOP:  0px solid !important;
+BORDER-LEFT:  0px solid !important;
+BORDER-BOTTOM: 0px solid !important;
+margin:0 !important;
+padding: 0 !important;
+background-color: white !important;
+color: gray !important;
+height: 100% !important;
+width: 100% !important;
+text-align: left !important;
+  flex: 1 !important;
+  border-bottom: 1px solid grey !important;
+  padding: 20rpx !important;
+  color: grey !important ;
+  
+}
+.other_2{
+  BORDER-RIGHT: 0px solid !important;
+BORDER-TOP:  0px solid !important;
+BORDER-LEFT:  0px solid !important;
+BORDER-BOTTOM: 0px solid !important;
+margin:0 !important;
+padding: 0 !important;
+background-color: white !important;
+color: gray !important;
+height: 100% !important;
+width: 100% !important;
+text-align: left !important;
+  flex: 1 !important;
+  border-bottom: 1px solid grey !important;
+  padding: 20rpx !important;
+  color: grey !important ;
+}
+.other_3{
+  BORDER-RIGHT: 0px solid !important;
+  BORDER-TOP:  0px solid !important;
+  BORDER-LEFT:  0px solid !important;
+  BORDER-BOTTOM: 0px solid !important;
+  margin:0 !important;
+  padding: 0 !important;
+  background-color: white !important;
+  color: gray !important;
+  height: 100% !important;
+  width: 100% !important;
+  text-align: left !important;
+    flex: 1 !important;
+    border-bottom: 1px solid grey !important;
+    padding: 20rpx !important;
+    color: grey !important ;
+}
+.other_4{
+  BORDER-RIGHT: 0px solid !important;
+  BORDER-TOP:  0px solid !important;
+  BORDER-LEFT:  0px solid !important;
+  BORDER-BOTTOM: 0px solid !important;
+  margin:0 !important;
+  padding: 0 !important;
+  background-color: white !important;
+  color: gray !important;
+  height: 100% !important;
+  width: 100% !important;
+  text-align: left !important;
+    flex: 1 !important;
+    border-bottom: 1px solid grey !important;
+    padding: 20rpx !important;
+    color: grey !important ;
+}

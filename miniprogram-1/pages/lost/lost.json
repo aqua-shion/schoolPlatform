@@ -1,0 +1,6 @@
+{
+  "usingComponents": {"Tabs":"../../components/Tabs/Tabs"},
+  "navigationBarTitleText": "失物招领",
+  "enablePullDownRefresh":true,
+  "backgroundColor":"#FF6FAC"
+}

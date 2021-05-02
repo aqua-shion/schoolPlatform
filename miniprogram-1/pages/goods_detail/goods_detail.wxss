@@ -1,0 +1,172 @@
+input {
+  border: 1px solid grey;
+}
+
+.price {
+  font-size: 80rpx;
+  color: #FF6FAC;
+  display: inline;
+}
+
+.goods_price {
+  margin: 0;
+  padding: 0;
+  display: inline;
+
+}
+
+.rmb {
+  color: #FF6FAC;
+  display: inline;
+}
+
+.goods_img {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.goods_title {
+  font-size: 50rpx;
+  margin-left: 10rpx;
+  margin-bottom: 50rpx;
+}
+
+/*分割线样式*/
+.divLine {
+  background: #E0E3DA;
+  width: 100%;
+  height: 5rpx;
+}
+
+.divLine2 {
+  background: #E0E3DA;
+  width: 100%;
+  height: 20rpx;
+  margin-bottom: 10rpx;
+}
+
+.goods_comment {
+  height: 500rpx;
+}
+
+.goods_contact {
+  margin-bottom: 50rpx;
+  margin-left: 20rpx;
+}
+
+.goods_num {
+  margin-bottom: 50rpx;
+  margin-left: 20rpx;
+}
+
+.goods_time {
+  margin-bottom: 50rpx;
+  margin-left: 20rpx;
+}
+
+.goods_detail_above {
+  margin: 20rpx;
+}
+
+.goods_detail {
+  margin: 20rpx;
+  margin-bottom: 100rpx;
+}
+
+.comment_wrap {
+
+  display: flex;
+}
+
+.input_comment {
+
+  height: 100rpx;
+  background-color: #E0E3DA;
+  flex: 6
+}
+
+.input_btn {
+  flex: 1;
+  text-align: center;
+
+
+}
+
+.user_image {
+  height: 150rpx;
+  width: 150rpx;
+}
+.iconfont{
+  margin-top: 30rpx;
+ }
+  .user_comment{
+   margin-top: 30rpx;
+   margin-left: 140rpx;
+  margin-bottom: 20rpx;
+ }
+ .wrap{
+  margin-bottom: 30rpx;
+  border-bottom: 1px solid grey;
+ }
+.user_avatar{
+  height: 100rpx;
+  width: 100rpx;
+  border-radius:150rpx;
+  margin-left: 20rpx;
+}
+.detail_user{
+  display: flex;
+  flex:1;
+  
+  
+}
+.user_wrap{
+  flex-direction: column
+}
+.user_name{
+ margin-left: 20rpx;
+  
+}
+.user_time{
+  margin-left: 20rpx;
+  color: grey;
+  
+}
+ 
+
+.user_comment{
+  margin-top: 30rpx;
+  margin-left: 140rpx;
+ margin-bottom: 20rpx;
+}
+.wrap{
+ margin-bottom: 30rpx;
+ border-bottom: 1px solid grey;
+}
+.user_avatar{
+ height: 100rpx;
+ width: 100rpx;
+ border-radius:150rpx;
+ margin-left: 20rpx;
+}
+.detail_user{
+ display: flex;
+ flex:1;
+ 
+ 
+}
+.user_wrap{
+ flex-direction: column
+}
+.user_name{
+margin-left: 20rpx;
+ 
+}
+.user_time{
+ margin-left: 20rpx;
+ color: grey;
+ 
+}

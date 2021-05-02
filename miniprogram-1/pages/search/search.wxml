@@ -1,0 +1,10 @@
+<view class="search_row">
+  <input bindinput="handleInput"  placeholder="请输入您要搜索的商品" > </input>
+  <button type="primary" bindtap="handleSearch" >搜索</button>
+
+</view>
+<view class="search_content">
+  <navigator url="/pages/goods_detail/goods_detail?id={{item._id}}" class="search_item" wx:for="{{goods}}" >
+    {{item.name}}
+  </navigator>
+</view> 

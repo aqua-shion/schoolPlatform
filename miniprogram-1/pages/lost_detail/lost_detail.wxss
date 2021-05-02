@@ -1,0 +1,63 @@
+input {
+  border: 1px solid grey;
+}
+
+
+.lost_img {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.lost_title {
+  font-size: 50rpx;
+  margin-left: 10rpx;
+  margin-bottom: 50rpx;
+}
+
+/*分割线样式*/
+.divLine {
+  background: #E0E3DA;
+  width: 100%;
+  height: 5rpx;
+}
+
+
+.lost_comment {
+  height: 500rpx;
+}
+
+.lost_contact {
+  margin-bottom: 50rpx;
+  margin-left: 20rpx;
+}
+
+.lost_num {
+  margin-bottom: 50rpx;
+  margin-left: 20rpx;
+}
+
+.lost_time {
+  margin-bottom: 50rpx;
+  margin-left: 20rpx;
+}
+
+.lost_detail_above {
+  margin: 20rpx;
+}
+
+.lost_detail {
+  margin: 20rpx;
+  margin-bottom: 100rpx;
+}
+
+
+.user_image {
+  height: 150rpx;
+  width: 150rpx;
+}
+.iconfont{
+  margin-top: 30rpx;
+ }
