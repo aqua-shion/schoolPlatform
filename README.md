@@ -1,6 +1,6 @@
 # aqua
 如有不懂可咨询QQ 1369292779
-https://s.im5.me/2021/05/03/AHcnq.jpg
+![AHcnq.jpg](https://s.im5.me/2021/05/03/AHcnq.jpg)
 https://s.im5.me/2021/05/03/AHN8g.png
 https://s.im5.me/2021/05/03/AHgcY.png
 https://s.im5.me/2021/05/03/AHiJQ.png
