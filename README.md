@@ -18,7 +18,6 @@
 
 [![E595Z.md.jpg](https://sm1.im5i.com/2021/12/07/E595Z.md.jpg)](https://img.sm/image/E595Z)
 [![E5ko9.md.png](https://sm1.im5i.com/2021/12/07/E5ko9.md.png)](https://img.sm/image/E5ko9)
-[![E5XlB.md.jpg](https://sm1.im5i.com/2021/12/07/E5XlB.md.jpg)](https://img.sm/image/E5XlB)
 [![E5zkH.jpg](https://sm1.im5i.com/2021/12/07/E5zkH.jpg)](https://img.sm/image/E5zkH)
 [![E5cB2.png](https://sm1.im5i.com/2021/12/07/E5cB2.png)](https://img.sm/image/E5cB2)
 [![E5x2b.jpg](https://sm1.im5i.com/2021/12/07/E5x2b.jpg)](https://img.sm/image/E5x2b)
